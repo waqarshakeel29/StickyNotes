@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "29344212463",
+    "firebase_url": "https://stickynotes-bafae.firebaseio.com",
+    "project_id": "stickynotes-bafae",
+    "storage_bucket": "stickynotes-bafae.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:29344212463:android:ddb3a0993e045afb",
+        "android_client_info": {
+          "package_name": "com.sticky.notes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "29344212463-km5r6pt12pi5l2ccdlcpsqc22gkatiu6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBbpV2Eo_IC8pHyBS-F6f0BgEqgp5EnjX4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "29344212463-km5r6pt12pi5l2ccdlcpsqc22gkatiu6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

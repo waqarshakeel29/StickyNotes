@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--
+Refer to App Widget Documentation for margin information
+http://developer.android.com/guide/topics/appwidgets/index.html#CreatingLayout
+    -->
+
+    <!--Action Bar-->
+    <dimen name="action_Bar_Height">50dp</dimen>
+    <dimen name="action_Bar_Text_Size">30dp</dimen>
+    <dimen name="action_Bar_Text_Left_Padding">10dp</dimen>
+
+    <dimen name="widget_margin">8dp</dimen>
+    <dimen name="text_size">17dp</dimen>
+    <dimen name="small_text_size">15dp</dimen>
+
+</resources>

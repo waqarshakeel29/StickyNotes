@@ -1,0 +1,57 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:background="#80CCCCCC"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+                tools:context="Fragments.MainFragment">
+
+
+
+    <ImageView
+            android:id="@+id/Iv_empty"
+            android:visibility="gone"
+            android:background="#FFFFFF"
+            android:layout_above="@id/relative"
+            android:src="@drawable/empty"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_MainList"
+            android:layout_width="match_parent"
+            android:layout_above="@id/relative"
+            android:layout_height="match_parent">
+    </androidx.recyclerview.widget.RecyclerView>
+
+
+<RelativeLayout
+        android:id="@+id/relative"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+    <RelativeLayout
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/card_view"
+            android:background="@color/colorPrimaryDark"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:backgroundTint="@color/colorPrimary">
+    </RelativeLayout>
+</RelativeLayout>
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fab_addNote"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="20dp"
+            android:backgroundTint="#ffffff"
+            app:borderWidth="0dp"
+            android:tint="#000000"
+            app:srcCompat="@android:drawable/ic_input_add"
+    />
+
+</RelativeLayout>
